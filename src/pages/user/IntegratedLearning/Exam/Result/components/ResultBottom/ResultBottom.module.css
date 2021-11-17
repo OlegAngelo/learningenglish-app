@@ -1,0 +1,20 @@
+.title {
+  font-size: 18px;
+  line-height: 25.2px;
+  padding-left: 11px;
+  padding-top: 18px;
+  padding-bottom: 7px;
+}
+
+.marginBottomBox {
+  margin-bottom: 12px;
+}
+
+.borderBottomNone {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.line {
+  height: 2px;
+}

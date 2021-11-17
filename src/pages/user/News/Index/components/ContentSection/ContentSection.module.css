@@ -1,0 +1,31 @@
+.container {
+  padding-bottom: 80px;
+  min-height: 95vh;
+}
+
+.dropdown {
+  width: 119px;
+}
+
+.loading {
+  height: 50px !important;
+  margin-top: 16px;
+}
+
+.headerSticky {
+  padding-top: 112px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.infiniteScrollPadding {
+  padding-top: 280px;
+}
+
+.paddingTop {
+  padding-top: 261px;
+}
+
+.marginTop {
+  top: 400px;
+}

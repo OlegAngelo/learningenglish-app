@@ -1,0 +1,17 @@
+.dialogueCard {
+  height: 93px;
+  min-height: 93px;
+}
+
+.icon {
+  margin-top: -10px;
+}
+
+.feedbackDialogueCard {
+  margin-top: 37.5px;
+  margin-left: 0px;
+}
+
+.dialogueText {
+  line-height: 23.8px;
+}

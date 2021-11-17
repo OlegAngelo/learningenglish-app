@@ -1,0 +1,14 @@
+.tagSpacing {
+  margin-left: 10.25px;
+}
+
+.hr {
+  position: relative;
+  border: none;
+  background: #c0c0c0;
+  height: 1px;
+}
+
+.pointText {
+  line-height: 175%;
+}

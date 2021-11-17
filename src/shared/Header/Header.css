@@ -1,0 +1,26 @@
+.back-icon{
+  width: 8.65px;
+  height: 14px;
+}
+
+.close-icon{
+  width: 14px;
+  height: 14px;
+}
+
+.play-icon{
+  width: 20px;
+  height: 20px;
+}
+.pause-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.title-font{
+  font-weight: 700;
+}
+
+.no-shadow{
+  -webkit-tap-highlight-color: transparent;
+}

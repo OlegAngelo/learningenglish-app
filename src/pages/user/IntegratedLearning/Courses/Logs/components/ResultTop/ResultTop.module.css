@@ -1,0 +1,38 @@
+.body {
+  min-height: 336px;
+}
+
+.unit {
+  font-size: 14px;
+  line-height: 19.6px;
+  padding-top: 17px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+
+.lesson {
+  font-size: 14px;
+  line-height: 19.6px;
+  text-align: center;
+}
+
+.img {
+  width: 236.61px;
+  height: 157.53px;
+  margin-bottom: 21.7px;
+  padding: 9px 10px 0px 10px;
+}
+
+.icon {
+  fill: #43596d;
+  height: 24px;
+  width: 24px;
+}
+
+.marginBottom {
+  margin-bottom: 29px !important;
+}
+
+.div {
+  margin-top: -5px;
+}

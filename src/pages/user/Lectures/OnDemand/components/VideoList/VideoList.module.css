@@ -1,0 +1,20 @@
+.lectureItemCard {
+  /* Basic ー 500 */
+  background: #ffffff;
+  /* Primary — 50 */
+  border: 1px solid #dce8f3;
+  /* 1dp elevation */
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  min-height: calc(100vh - 312px);
+}
+
+.playingVideo {
+  background: #DCE8F3;
+}

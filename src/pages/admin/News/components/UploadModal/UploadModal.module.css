@@ -1,0 +1,25 @@
+.modal {
+  width: 510px;
+  height: 450px;
+}
+
+.errorHeader {
+  background-color: #FFB2B2;
+}
+
+.error {
+  background-color: #FFE5E5;
+}
+
+.containerText {
+  width: 85%;
+}
+
+.text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  margin-left: 30px;
+  margin-top: -25px;
+}

@@ -1,0 +1,68 @@
+.recorderContainer {
+  margin-top: 50px;
+  margin-bottom: 53px;
+}
+
+.recordeRecordingContainer {
+  margin-top: 65px;
+  margin-bottom: 53px;
+}
+
+.recorderBtn {
+  margin-top: -1px;
+  margin-left: -3px;
+}
+
+.feedbackResponse {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.feedbackMessage {
+  -webkit-text-stroke: .55px #FFFFFF;
+  font-size: 27.25px;
+  margin-bottom: -8px;
+}
+
+.playBackBtn {
+  margin-top: -3px;
+}
+
+.explanation {
+  margin: 30px 8px 50px 8px;
+}
+
+.explanationCard {
+  padding: 17px 16px;
+}
+
+.correctChoice {
+  letter-spacing: -1.32px;
+}
+
+.blink {
+  animation: blink 1.25s ease-in-out infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes blink {
+  0%,
+  55% {
+    opacity: 0.5;
+  }
+
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+
+.instruction {
+  @apply h-px-23 mx-2 pt-px-1 font-semibold text-16 leading-px-23 text-center text-primary-500;
+}
+
+@media only screen and (max-width: 370px) {
+  .recorderContainer {
+    margin-top: 30px;
+  }
+}

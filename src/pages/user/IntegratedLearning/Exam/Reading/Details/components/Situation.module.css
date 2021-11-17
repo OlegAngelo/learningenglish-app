@@ -1,0 +1,12 @@
+.situationHeadingColor{
+  color: #43596D;
+  color-adjust: exact;
+}
+
+.situation {
+  line-height: 19.6px;
+}
+
+.situationDescription {
+  line-height: 23.8px;
+}

@@ -1,0 +1,32 @@
+.titleContainer {
+  height: 55px;
+}
+
+.titleMargin {
+  margin-top: 78px;
+}
+
+.commentaryDescription {
+  margin-top: 15px;
+}
+
+.itemQuestion {
+  line-height: 35.52px;
+}
+
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen
+  and (max-device-width: 320px)
+  and (min-device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .inputBox {
+      margin-bottom: 6rem;
+    }
+  }

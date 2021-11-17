@@ -1,0 +1,45 @@
+.container {
+  padding-top: 20px;
+  padding-bottom: 170px;
+}
+
+.noback {
+  margin-top: 86px;
+}
+
+.back {
+  margin-top: 87px;
+  width: 71px;
+  height: 20px;
+}
+
+.floatingBtn {
+  padding: 7px 0 9px 0;
+  width: 56px;
+  margin-right: 16px;
+  height: 56px;
+  margin-top: 29px;
+  border-radius: 45px;
+  box-shadow: 0px 1px #888888bd;
+  right: 0;
+}
+
+.modal {
+  width: 89%;
+  height: 162px;
+}
+
+.modalHeader{
+  line-height: 145%;
+}
+
+.modalContent{
+  line-height: 170%;
+  width: 91%;
+}
+
+@media only screen and (min-width: 390) {
+  .container {
+    padding-bottom: 75%;
+  }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.rc-time-picker-panel-combobox {
+  display: flex;
+}
+
+.select {
+  width: 255px;
+  padding: 0 40px 0 12px !important;
+}
+
+.inputText {
+  width: 542px;
+}
+
+.button {
+  width: 92px;
+}
+
+.convertButton {
+  background-color: #044071 !important;
+}
+
+.cursorDefault {
+  cursor: default !important;
+}
+
+.liveTime {
+  height: 61.45px;
+}

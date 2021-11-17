@@ -1,0 +1,16 @@
+.questionContainer {
+  border-radius: 27px;
+  width: 118.27px;
+  height: 24px;
+  margin-top: 18px;
+  padding: 2px;
+}
+
+.questionNum {
+  margin-top: 6px;
+  margin: 0 auto;
+}
+
+.letterSpace {
+  letter-spacing: -0.3px;
+}

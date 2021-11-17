@@ -1,0 +1,26 @@
+.boxSize {
+  min-height: 88px;
+}
+
+.textBoxSettings {
+  line-height: 31.8px;
+  caret-color: #0c5f8d;
+  padding: 16px 0px 16px 0px;
+}
+
+.textAreaLineBreak {
+  line-height: 31.8px;
+  caret-color: #0c5f8d;
+}
+
+.incorrectWordColor {
+  color: #e34e42;
+}
+
+.incorrectWordBoxFormat {
+  word-break: break-word;
+}
+
+.textAreaPadding {
+  margin-bottom: 145.5px;
+}

@@ -1,0 +1,37 @@
+.label {
+  margin-top: 39px;
+}
+
+.bottomText {
+  line-height: 21px;
+  margin-bottom: 19px;
+}
+
+.stepText {
+  line-height: 19.6px;
+}
+
+.topText {
+  line-height: 31.8px;
+  text-transform: uppercase;
+}
+
+.buttonGroup {
+  letter-spacing: 1px;
+}
+
+.button {
+  max-width: 162px;
+  display: block;
+}
+
+@media only screen and (max-width: 320px) {
+  .button {
+    max-width: 142px;
+    font-size: 13px;
+  }
+
+  .nextButton {
+    margin-top: 24px;
+  }
+}

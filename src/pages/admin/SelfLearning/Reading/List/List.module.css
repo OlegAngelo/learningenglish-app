@@ -1,0 +1,39 @@
+.td1 {
+  width: 100px;
+}
+
+.td2 {
+  width: 400px;
+}
+
+.td3 {
+  width: 120px;
+}
+
+.td4 {
+  width: 120px;
+}
+
+.td5 {
+  width: 120px;
+}
+
+.td6 {
+  width: 160px;
+}
+
+.td7 {
+  width: 130px;
+}
+
+.td8 {
+  width: 50px;
+}
+
+.bottom {
+  padding: 0 !important;
+}
+
+.highlightText {
+  color: #044071 !important;
+}

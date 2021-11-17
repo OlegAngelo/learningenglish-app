@@ -1,0 +1,35 @@
+.phraseMenu {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+              0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+              0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  height: 115px;
+}
+
+.container {
+  padding-top: 116px;
+}
+
+.learnedCheckList {
+  padding-top: 162px !important;
+}
+
+.shrinking {
+  width: 56%;
+  transition-property: width;
+  transition-duration: 500ms;
+}
+
+.searchBar {
+  width: 100%;
+  transition-property: width;
+  transition-duration: 500ms;
+}
+
+.shrinkedSearchBar {
+  width: 56%;
+  transition-property: width;
+  transition-duration: 500ms;
+}

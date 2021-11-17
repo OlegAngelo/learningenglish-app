@@ -1,0 +1,14 @@
+.surveyText {
+  top: 46%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  line-height: 31.8px;
+}
+
+.buttonGroup {
+  top: 77%;
+  left: 48.5%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

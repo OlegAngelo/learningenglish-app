@@ -1,0 +1,111 @@
+.tag {
+  align-items: center;
+  cursor: default;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  justify-content: center;
+}
+
+/* Background Color */
+
+.bg-orange {
+  background-color: #F5B160;
+}
+
+.bg-gray {
+  background-color: #dce8f3;
+}
+
+.bg-lightGray {
+  background-color: #F2F2F2;
+}
+
+.bg-darkGray {
+  background-color: #7A91A6
+}
+
+.bg-teal {
+  background-color: #03dac6;
+}
+
+.bg-lightTeal {
+  background-color: #c9ebe8;
+}
+
+.bg-dark {
+  color: #ffffff !important;
+  background-color: #43596d;
+}
+
+.bg-light {
+  color: #43596d !important;
+  background-color: #ffffff;
+}
+
+.bg-darkGreen {
+  background-color: #00A29D;
+}
+
+.bg-error {
+  background-color: #E34E42;
+}
+
+.dark {
+  color: #43596d;
+}
+
+.light {
+  color: #ffffff;
+}
+
+.bg-lightWithBorder {
+  color: #8D8D8D;
+  background-color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+}
+
+.chartInprogress {
+  color: #044071;
+}
+
+.darkBlue {
+  color: #0C5F8D !important;
+}
+
+/* Sizes */
+.sizeXSmall {
+  font-size: 11px;
+  min-height: 21px;
+  line-height: 11px;
+}
+
+.sizeSmall {
+  font-size: 10px;
+  min-height: 20px;
+  line-height: 12px;
+}
+
+.sizeMedium {
+  font-size: 12px;
+  min-height: 26px;
+  line-height: 12px;
+}
+
+.sizeLarge {
+  font-size: 14px;
+  height: 24px;
+  line-height: 19.6px;
+}
+
+/* Border Radius */
+
+.rounded {
+  border-radius: 2px;
+}
+
+.circle {
+  border-radius: 12px;
+}

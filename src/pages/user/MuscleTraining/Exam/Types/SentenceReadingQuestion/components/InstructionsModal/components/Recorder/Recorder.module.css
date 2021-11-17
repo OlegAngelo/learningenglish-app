@@ -1,0 +1,12 @@
+.recordingCircle {
+  border-radius: 50%;
+}
+
+.icon svg {
+  fill: none;
+}
+
+.circle {
+  width: 54px;
+  height: 54px;
+}

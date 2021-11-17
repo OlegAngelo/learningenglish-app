@@ -1,0 +1,49 @@
+.modal {
+  width: 510px;
+  height: 400px;
+}
+
+.errorHeader {
+  background-color: #FFB2B2;
+}
+
+.error {
+  background-color: #FFE5E5;
+}
+
+.inputDate[type='date']::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png)
+    no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.inputDatex {
+  position: relative;
+  float: left;
+}
+
+.inputDatex input {
+  padding: 5px 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.inputDatex span {
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  width: 25px;
+  height: 25px;
+  background: #FFF;
+  pointer-events: none;
+}
+
+.inputDatex span button {
+  border: none;
+  background: transparent;
+}

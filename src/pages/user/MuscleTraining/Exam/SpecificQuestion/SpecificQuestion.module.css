@@ -1,0 +1,25 @@
+.commentaryBubble {
+  bottom: 96px;
+  right: 30px;
+}
+
+.fixedBackground {
+  position: fixed;
+  z-index: -10;
+  height: 100vh;
+  width: 100%;
+  @apply bg-background-200;
+}
+
+.footerIcon {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.footerContent {
+  border-top: solid 0.5px rgb(0, 0, 0, 0.2);
+  padding-top: 14px;
+}
+
+.footerIcon {
+  -webkit-tap-highlight-color: transparent;
+}

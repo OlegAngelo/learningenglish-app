@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  frontend:
+    build: .
+    restart: unless-stopped
+    tty: true
+    working_dir: /var/www/
+    ports:
+      - '3002:3000'
+    volumes:
+      - '.:/var/www'
+      - /var/www/node_modules
+    environment:
+      - CHOKIDAR_USEPOLLING=true yarn start
+    command: /var/www/bootup.sh ${SSL_ON}

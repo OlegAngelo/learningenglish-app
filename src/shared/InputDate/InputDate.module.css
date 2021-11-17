@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  float: left;
+}
+
+.defaultSize {
+  width: 255px;
+  height: 36px !important;
+}
+
+.container input {
+  font-size: 12px;
+  padding: 5px 10px;
+  color: #374151;
+}
+
+.container span {
+  position: absolute;
+  top: 4px;
+  right: 11px;
+  width: 25px;
+  height: 25px;
+  background: #FFF;
+  pointer-events: none;
+}
+
+.container span button {
+  border: none;
+  background: transparent;
+}

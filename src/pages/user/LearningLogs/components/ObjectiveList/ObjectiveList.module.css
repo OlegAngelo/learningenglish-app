@@ -1,0 +1,47 @@
+.title {
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin-left: -9px;
+  font-size: 18px;
+  line-height: 25.2px;
+}
+
+.roundedFirst {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.roundedLast {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.box {
+  background: rgba(220, 232, 243, 0.5);
+  width: 85px;
+  height: 90px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 72px;
+}
+
+.listText {
+  /* min-width: 114px; */
+  /* height: 16px; */
+  font-size: 12px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.checkBg {
+  background: #D6EDEB !important;
+}
+
+.uncheck {
+  width: 25px;
+  height: 24px;
+  background: #FFF;
+  border: 1px dashed #0C5F8D;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin: 0 auto;
+}

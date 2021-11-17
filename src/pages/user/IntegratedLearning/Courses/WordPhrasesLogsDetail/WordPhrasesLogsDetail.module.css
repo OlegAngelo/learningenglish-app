@@ -1,0 +1,57 @@
+.unit {
+  line-height: 24px;
+}
+
+.whiteDiv {
+  padding-top: 22px;
+  background-color: #fefefe;
+}
+
+.questionTag {
+  color: #0c5f8d;
+  width: 118.27px;
+  border-radius: 27px;
+  margin: 22px 0 5px 10px;
+}
+
+.question {
+  letter-spacing: 0.3px;
+  line-height: 23.2px;
+  margin: 0 0 7px 26.75px;
+}
+
+.pointDiv {
+  padding: 0 21px;
+}
+
+.point {
+  text-transform: uppercase;
+  line-height: 21px;
+  margin: 23px 0 9px 0;
+}
+
+.pointTxt {
+  min-height: 131px;
+  line-height: 24.5px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  padding: 3px 0 22px 0;
+}
+
+.header {
+  height: 88px;
+}
+
+.opt1 {
+  min-height: 63px;
+}
+
+.opt2 {
+  min-height: 66px;
+}
+
+.opt3 {
+  min-height: 59px;
+}

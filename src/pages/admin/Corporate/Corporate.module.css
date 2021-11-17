@@ -1,0 +1,38 @@
+.corporateContainer {
+  height: fit-content;
+}
+
+.board {
+  min-width: 836px;
+  margin-bottom: 3rem;
+}
+
+.topButtonContainer {
+  padding-left: 90px;
+  margin-top: 24px;
+}
+
+.boardBody {
+  padding: 0 2rem;
+  padding-left: 90px;
+}
+
+.boardRowContent {
+  max-width: 929px;
+}
+
+.menu {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.padding{
+  padding-bottom: 17.68px;
+ }
+ 
+
+@media only screen and (min-width: 1440px) {
+  .boardRowContent {
+    max-width: 91%;
+  }
+}

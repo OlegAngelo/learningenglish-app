@@ -1,0 +1,28 @@
+.line {
+  height: 1px;
+}
+
+.option {
+  min-height: 65px;
+  min-width: 40px;
+  padding: 9px 12px;
+  text-transform: capitalize;
+}
+
+.divIcon {
+  min-width: 26.5px;
+  height: 26px;
+}
+
+.icon {
+  fill: none !important;
+}
+
+.questionText {
+  line-height: 21px;
+  word-wrap: break-word;
+  color: #141414;
+  margin-left: 9px;
+  padding-top: 1px;
+  letter-spacing: 0.3px;
+}

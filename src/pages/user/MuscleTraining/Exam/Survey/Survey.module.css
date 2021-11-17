@@ -1,0 +1,48 @@
+.title {
+  padding-top: 166px;
+}
+
+.buttonContainer {
+  padding-top: 160px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (min-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .title {
+      padding-top: 130px;
+    }
+  }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .buttonContainer {
+      padding-top: 120px;
+    }
+    .title {
+      padding-top: 115px;
+    }
+  }
+
+/* ----------- iPhone 12, 12 Pro ----------- */
+@media only screen
+  and (max-device-width: 390px)
+  and (max-device-height: 844px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .title {
+      padding-top: 140px;
+    }
+    .buttonContainer {
+      padding-top: 130px;
+    }
+  }

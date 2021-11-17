@@ -1,0 +1,21 @@
+.modal {
+  width: 510px;
+  height: 450px;
+}
+
+.containerText {
+  width: 85%;
+}
+
+.text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  margin-left: 30px;
+  margin-top: -25px;
+}
+
+.fileDrop {
+  height: 209px;
+}

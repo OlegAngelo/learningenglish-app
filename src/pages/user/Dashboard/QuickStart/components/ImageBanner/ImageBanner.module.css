@@ -1,0 +1,12 @@
+.imageBanner {
+  margin:0 auto;
+  text-align: center;
+  border-radius: 4px; 
+  --tw-shadow: 2px 7px 4px -7px rgba(0, 0, 0, 0.6);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.header {
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}

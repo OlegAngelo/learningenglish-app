@@ -1,0 +1,19 @@
+.focus {
+  border-right: 2px solid #044071;
+  animation: blinker 1s linear infinite;
+}
+
+.underline {
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.selected {
+  border-bottom: 2px solid #044071;
+}
+
+@keyframes blinker {
+  0% { opacity: 1; }
+  49% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 0; }
+}

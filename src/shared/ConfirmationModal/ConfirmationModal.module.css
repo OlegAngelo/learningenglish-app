@@ -1,0 +1,12 @@
+.modalCard {
+    width: 510px;
+    height: 160px;
+    top: 140px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+}
+
+.modalCardDescription {
+    margin: 24px 24px 0 24px;
+    line-height: 16px;
+}

@@ -1,0 +1,32 @@
+.emailParagraph {
+  line-height: 170%;
+}
+
+.emailBottomParagraph {
+  line-height: 170%;
+  padding-bottom: 51px;
+}
+
+.japaneseQuestion {
+  margin-top: 21.5px;
+  margin-bottom: 22px;
+  line-height: 19.5px;
+}
+
+.textAreaStyle {
+  border: 1px solid #e8e8e8;
+}
+
+.cardFormat {
+  border: 1px solid #c0c0c0;
+}
+
+.fixedBackground {
+  z-index: -10;
+  height: 100vh;
+  width: 100%;
+}
+
+.footerButton {
+  margin-top: 35px;
+}

@@ -1,0 +1,54 @@
+.lectureBoxShadow {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.scroll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.navItem {
+  flex: 0 0 auto;
+  padding: 16px;
+  color: #7a91a6;
+}
+
+.active {
+  color: white;
+  border-bottom: solid 4px white;
+  font-weight: bold;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.accordion {
+  transition: 0.4s;
+}
+
+.accordionPanelHidden {
+  overflow: hidden;
+  display: none;
+  transform:scaleY(0);
+  height: 0px;
+  transition: height 1.5s;
+  transition-timing-function: ease;
+}
+
+.accordionPanelShow {
+  overflow: hidden;
+  display: block;
+  height: 103px;
+  transition: height 1.5s;
+  transition-timing-function: ease;
+}

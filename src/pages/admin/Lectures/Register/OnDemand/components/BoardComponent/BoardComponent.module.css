@@ -1,0 +1,9 @@
+.boardRowContent {
+  max-width: 929px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .boardRowContent {
+    max-width: 91% !important;
+  }
+}

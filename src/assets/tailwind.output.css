@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('./fonts/SFProText-Regular.ttf');
+}
+
+@layer base {
+  body {
+    @apply font-hiragino;
+    height: 100%;
+  }
+
+  html, #root {
+    height: 100%;
+  }
+}

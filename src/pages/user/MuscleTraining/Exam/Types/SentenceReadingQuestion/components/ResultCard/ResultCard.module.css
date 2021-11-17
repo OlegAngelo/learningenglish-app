@@ -1,0 +1,22 @@
+.container {
+  min-height: 105px;
+  padding: 15px 26px 15px 0;
+}
+
+.evaluationDiv {
+  min-width: 124px;
+}
+
+.labelDiv {
+  min-height: 76px;
+  width: 167px;
+}
+
+.labelSubDiv {
+  height: 26px;
+  width: 100%;
+}
+
+.evaluationText {
+  color: #000000 60%;
+}

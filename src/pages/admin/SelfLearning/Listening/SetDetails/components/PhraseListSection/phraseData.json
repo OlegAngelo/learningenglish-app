@@ -1,0 +1,334 @@
+{
+  "phraseData": [
+    {
+      "id": "L1_001_01",
+      "phrase": "Finally, my sister decided to study abroad.",
+      "phrase_jp": "ついに妹は留学することに決めました。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "Finally",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "my",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "sister",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "decided",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "to",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "study",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "abroad",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_02",
+      "phrase": "Please leave the door open.",
+      "phrase_jp": "ドアは開けたままにしておいてください。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "Please",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "leave",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "the",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "door",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "open",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_03",
+      "phrase": "The local people have longed for peace.",
+      "phrase_jp": "地元の人々は平和を切望してきました。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "The",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "local",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "have",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "longed",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "peace",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_04",
+      "phrase": "I'll practice playing the piano this afternoon.",
+      "phrase_jp": "午後はピアノを弾く練習をするつもりです。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "I'll",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "practice",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "playing",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "the",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "piano",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "this",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "afternoon",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_05",
+      "phrase": "Finally my sister decided to study abroad.",
+      "phrase_jp": "ついに妹は留学することに決めました。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "Finally",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "my",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "sister",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "decided",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "to",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "study",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "abroad",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_06",
+      "phrase": "Please leave the door open.",
+      "phrase_jp": "ドアは開けたままにしておいてください。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "Please",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "leave",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "the",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "door",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "open",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_07",
+      "phrase": "The local people have longed for peace.",
+      "phrase_jp": "地元の人々は平和を切望してきました。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "The",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "local",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "have",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "longed",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "peace",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_08",
+      "phrase": "I'll practice playing the piano this afternoon.",
+      "phrase_jp": "午後はピアノを弾く練習をするつもりです。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "I'll",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "practice",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "playing",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "the",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "piano",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "this",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "afternoon",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_09",
+      "phrase": "Finally my sister decided to study abroad.",
+      "phrase_jp": "ついに妹は留学することに決めました。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "Finally",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "my",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "sister",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "decided",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "to",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "study",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "abroad",
+          "correct_answer_rate": 70
+        }
+      ]
+    },
+    {
+      "id": "L1_001_10",
+      "phrase": "Please leave the door open.",
+      "phrase_jp": "ドアは開けたままにしておいてください。",
+      "correct_answer_rate": 70,
+      "utterrance_rate": 50,
+      "words": [
+        {
+          "word": "Please",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "leave",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "the",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "door",
+          "correct_answer_rate": 70
+        },
+        {
+          "word": "open",
+          "correct_answer_rate": 70
+        }
+      ]
+    }
+  ]
+}

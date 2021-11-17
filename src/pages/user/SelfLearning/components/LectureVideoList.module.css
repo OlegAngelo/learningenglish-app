@@ -1,0 +1,28 @@
+.scroll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: start;
+  align-content: stretch;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.navItem {
+  flex: 0 0 auto;
+  padding: 8px;
+  width: 144px;
+  height: 186px;
+}
+
+.centerLoader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

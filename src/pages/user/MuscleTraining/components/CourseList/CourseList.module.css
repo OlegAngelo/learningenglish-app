@@ -1,0 +1,79 @@
+.courseList {
+  padding: 10px 15px 17px 15px;
+  background: #EDF4F9;
+}
+
+.courseListDisabled {
+  height: 85px;
+  padding: 10px 15px 17px 15px;
+  background: #F5F5F5;
+}
+
+.imageCourse {
+  width: 132px;
+  height: 88px;
+}
+
+.titles {
+  margin-left: 4.09px;
+  margin-top: -1px;
+}
+
+.unitTitle {
+  width: 40.3px;
+  height: 30.15px;
+  margin-bottom: -13px;
+}
+
+.situationStyle {
+  height: 15px;
+}
+
+.doneText {
+  color: #F0A64E;
+}
+
+.img {
+  width: 115px;
+  height: 88px;
+}
+
+.secondProgress {
+  margin-left: 30px;
+}
+
+.textSize {
+  margin-right: 2px;
+}
+
+.strength {
+  line-height: 15px;
+}
+
+.strengthWord {
+  line-height: 15px;
+  padding-left: 2.5px;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  .secondProgress {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .secondProgress {
+    margin-left: 30px;
+  }
+
+  .titles {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .titles > p {
+  text-overflow: ellipsis;
+  }
+
+}

@@ -1,0 +1,11 @@
+.option {
+  padding: 14.5px 16px;
+}
+
+.modal {
+  align-items: flex-end !important;
+}
+
+.modalContent {
+  padding: 15.5px 0;
+}

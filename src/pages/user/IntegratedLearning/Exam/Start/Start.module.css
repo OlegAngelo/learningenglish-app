@@ -1,0 +1,29 @@
+.startBackground {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.overlayImage {
+  background-color: #141414;
+  mix-blend-mode: multiply;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+.headerText{
+  margin-top: 110px;
+}
+.box1 {
+  margin-top: 66px;
+  border: 1px solid #FFFFFF;
+  width: 293px;
+}
+.lessonText{
+  padding: 8.5px 0px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.englishDescription{
+  margin: 10px 28px 25px 28px;
+  width: 224px;
+  line-height: 175%;
+}

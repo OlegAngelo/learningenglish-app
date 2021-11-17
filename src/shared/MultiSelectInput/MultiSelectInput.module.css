@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  background: transparent;
+}
+
+.container select {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.container:after {
+  content: url('../../assets/images/chevronDown.svg');
+  color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  right: 0;
+  top: 67%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-weight: 100;
+  margin-right: 13px;
+}

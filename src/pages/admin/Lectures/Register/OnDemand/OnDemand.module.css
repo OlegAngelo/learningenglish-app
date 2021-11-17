@@ -1,0 +1,48 @@
+.board {
+  min-width: 836px;
+}
+
+.select {
+  width: 255px;
+}
+
+.inputText {
+  width: 542px;
+}
+
+.table {
+  width: 735px;
+}
+
+.td1 {
+  width: 300px;
+}
+
+.td2 {
+  width:  100px;
+}
+
+.td3 {
+  width: 80px;
+}
+
+.td4 {
+  width: 80px;
+}
+
+.td5 {
+  width: 50px;
+}
+
+.selectArrow {
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+}
+
+.textArea {
+  width: 582px;
+  height: 504px;
+  border-radius: 2px !important;
+  border: 1px solid #D1D5DB;
+}

@@ -1,0 +1,70 @@
+.response {
+  margin-bottom: -9px;
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.commentary {
+  margin-bottom: 146.5px;
+}
+
+.speakerIcon {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (min-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 40px;
+  }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 0px;
+  }
+
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 80px;
+  }
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen
+  and (max-device-width : 320px)
+  and (min-device-height : 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 10px;
+  }
+
+}

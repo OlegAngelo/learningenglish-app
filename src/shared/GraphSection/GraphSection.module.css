@@ -1,0 +1,28 @@
+.body {
+  min-height: 336px;
+}
+
+.learningScore {
+  position: absolute;
+  vertical-align: top;
+  line-height: 170%;
+  top: 13.5%;
+  left: 16px;
+}
+
+.pieGraph {
+  margin-top: -26px;
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen
+  and (max-device-width : 320px)
+  and (min-device-height : 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .learningScore {
+      top: 10%;
+    }
+
+}

@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "sentence_jp": {
+      "required": "日本語訳は必須項目です",
+      "maxLength": {
+        "value": 15000000,
+        "message": "日本語訳は必須項目です15,000,000文字以下である必要があります。"
+      }
+    },
+    "pre_sentence": {
+      "maxLength": {
+        "value": 15000000,
+        "message": "前の文15,000,000文字以下である必要があります。"
+      }
+    },
+    "post_sentence": {
+      "maxLength": {
+        "value": 15000000,
+        "message": "ポスト文 15,000,000文字以下である必要があります。"
+      }
+    },
+    "correct_answer": {
+      "maxLength": {
+        "value": 15000000,
+        "message": "正解15,000,000文字以下である必要があります。"
+      }
+    }
+  }
+}

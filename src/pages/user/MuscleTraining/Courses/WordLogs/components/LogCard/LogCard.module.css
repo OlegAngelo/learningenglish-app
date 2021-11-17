@@ -1,0 +1,13 @@
+.logWordCard {
+  background-color: #FFFFFF;
+  margin-bottom: 3px;
+}
+
+.logWordCardContent {
+  padding: 15px 15px 16px 14px;
+}
+
+.logWordCardContentTitle {
+  padding-bottom: 4px;
+  margin-top: -2px;
+}

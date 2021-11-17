@@ -1,0 +1,292 @@
+.micDefaultIcon {
+  margin-top: 310px;
+  margin-bottom: 54px;
+}
+
+.micSubmitIcon {
+  margin-top: 280px;
+  margin-bottom: 29px;
+}
+
+.micRecordingIcon {
+  margin-top: 303px;
+  margin-bottom: 53px;
+}
+
+.textAreaPadding {
+  margin-bottom: 100px;
+}
+
+.playBackBtn {
+  margin-top: -3px;
+}
+
+.playBackBtn2 {
+  margin-top: -3px;
+}
+
+.feedbackMessage {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.commentaryCard {
+  height: 153px;
+  margin-top: 8px;
+}
+
+.commentaryWrapper {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.commentaryDesc {
+  line-height: 23.8px;
+}
+
+.englishQuestion {
+  line-height: 26.64px;
+  margin-top: 13px;
+  font-size: 18px;
+}
+
+.commentaryType {
+  line-height: 23.2px;
+}
+
+.headerTitle {
+  line-height: 35.52px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.subHeaderTitle {
+  line-height: 23.8px;
+}
+
+.btnSubmitWrapper {
+  margin-bottom: 1px;
+}
+
+.responseStyle {
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.recorderIcon {
+  margin-left: -59px;
+ }
+
+.phraseConfirmingContainer {
+  margin-top: 255px;
+}
+
+.phraseConfirmingSubContainer {
+  margin-top: 287px;
+}
+
+.blink {
+  animation: blink 1.25s ease-in-out infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes blink {
+  0%,
+  55% {
+    opacity: 0.5;
+  }
+
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (max-device-height: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .textAreaPadding {
+      margin-bottom: 5px;
+    }
+
+    .headerTitle {
+      line-height: 35.52px;
+      margin-top: 30px;
+      font-size: 24px;
+    }
+
+    .englishQuestion {
+      line-height: 26.64px;
+      margin-top: 13px;
+      font-size: 18px;
+    }
+
+    .textAreaPadding {
+      margin-bottom: 100px;
+    }
+
+    .micDefaultIcon {
+      margin-top: 310px;
+      margin-bottom: 54px;
+    }
+
+    .micRecordingIcon {
+      margin-top: 303px;
+      margin-bottom: 53px;
+    }
+
+    .micSubmitIcon {
+      margin-top: 280px;
+      margin-bottom: 29px;
+    }
+
+    .playBackBtn {
+      margin-top: 11px;
+    }
+
+    .btnSubmitWrapper {
+      margin-bottom: 1px;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (max-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .textAreaPadding {
+      margin-bottom: 5px;
+    }
+
+    .headerTitle {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .englishQuestion {
+      margin-top: 5px;
+      font-size: 18px;
+    }
+
+    .micDefaultIcon {
+      margin-top: 310px;
+      margin-bottom: 54px;
+    }
+
+    .micRecordingIcon {
+      margin-top: 303px;
+      margin-bottom: 53px;
+    }
+
+    .micSubmitIcon {
+      margin-top: 280px;
+      margin-bottom: 29px;
+    }
+
+    .playBackBtn {
+      margin-top: 170px;
+    }
+
+    .btnSubmitWrapper {
+      margin-bottom: 1px;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (max-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .textAreaPadding {
+      margin-bottom: 5px;
+    }
+
+    .headerTitle {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .englishQuestion {
+      margin-top: 5px;
+      font-size: 18px;
+    }
+
+    .micDefaultIcon {
+      margin-top: 190px;
+    }
+
+    .micRecordingIcon {
+      margin-top: 180px;
+    }
+
+    .micSubmitIcon {
+      margin-top: 130px;
+      margin-bottom: 19px;
+    }
+
+    .playBackBtn {
+      margin-top: 11px;
+    }
+
+    .btnSubmitWrapper {
+      margin-bottom: 10px;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen
+  and (max-device-width: 320px)
+  and (max-device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .textAreaPadding {
+      margin-bottom: 5px;
+    }
+
+    .headerTitle {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .englishQuestion {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    .micDefaultIcon {
+      margin-top: 190px;
+    }
+
+    .micRecordingIcon {
+      margin-top: 180px;
+    }
+
+    .micSubmitIcon {
+      margin-top: 130px;
+      margin-bottom: 19px;
+    }
+
+    .playBackBtn {
+      margin-top: 30px;
+    }
+
+    .btnSubmitWrapper {
+      margin-bottom: 70px;
+    }
+
+    .playIcon {
+      margin-left: 70px !important;
+    }
+
+    .recorderIcon {
+      margin-top: 2px;
+    }
+
+    .recorderIconText {
+      padding-top: 4px;
+      margin-top: 0;
+    }
+}

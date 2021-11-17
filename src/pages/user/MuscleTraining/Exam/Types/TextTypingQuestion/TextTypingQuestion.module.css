@@ -1,0 +1,9 @@
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.speakerIcon {
+  -webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,18 @@
+.actionText {
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.progressBox {
+  height: 24px;
+  width: 304px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  height: 16px;
+  width: 100%;
+  border-radius: 8px;
+}

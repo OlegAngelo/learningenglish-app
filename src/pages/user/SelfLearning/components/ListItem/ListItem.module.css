@@ -1,0 +1,15 @@
+.height {
+  min-height: 80px;
+}
+
+.disable {
+  opacity: 0.2;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #DCE8F3;
+  position: absolute;
+}

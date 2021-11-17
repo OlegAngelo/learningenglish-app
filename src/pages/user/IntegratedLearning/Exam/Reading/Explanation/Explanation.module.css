@@ -1,0 +1,65 @@
+.container {
+  padding-top: 9px;
+}
+
+.qaContainer {
+  border-radius: 4px;
+  perspective: 1px;
+  padding-bottom: 30px;
+  margin-top: 11px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.commentaryContainer {
+  border-radius: 4px;
+  perspective: 1px;
+  padding-bottom: 30px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.pointContainer {
+  margin: 25px 21px 0px 21px;
+}
+
+.pointParagraph {
+  margin-top: 10px;
+  line-height: 185%;
+}
+
+.btnWrapper {
+  display: table;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+.btnGridWrapper {
+  margin-top: 25px;
+  padding-bottom: 50px;
+}
+
+.btnGrid {
+ margin-right: 8px;
+}
+
+.commentaryWrapper {
+  padding-top: 43px;
+}
+
+.btnTranslate {
+  margin: 17px 14.7px;
+}
+
+.footerButtonSm {
+  width: 25vw;
+  font-size: 14px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.footerButtonLg {
+  width: 40vw;
+  padding: unset;
+}

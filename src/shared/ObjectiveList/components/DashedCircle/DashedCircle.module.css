@@ -1,0 +1,9 @@
+.uncheck {
+  width: 25px;
+  height: 24px;
+  background: #fff;
+  border: 1px dashed #0C5F8D;
+  border-radius: 50%;
+  margin-top: 11px;
+  margin: 0 auto;
+}

@@ -1,0 +1,125 @@
+.response {
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.inputBox {
+  padding-left: 11.5px;
+  padding-right: 11.5px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.correctOutline {
+  border: 2px solid #03DAC6;
+}
+
+.incorrectOutline {
+  border: 2px solid #E34E42;
+}
+
+.textField {
+  font: 2.5ch monospace;
+}
+
+input:focus {
+  outline: none;
+}
+
+.red {
+  color: #E34E42;
+}
+
+.inputFontSize {
+  font-size: 4vw !important;
+}
+
+.inputWidth {
+  width: 3.7vw !important;
+}
+
+.inputMargin {
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .softKeyboardWrapper {
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 20%;
+  }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (min-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .softKeyboardWrapper {
+    position: relative;
+    margin-top: 3%;
+    margin-bottom: 20%;
+  }
+
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .softKeyboardWrapper {
+    bottom: 8%;
+    position: fixed;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen
+  and (max-device-width: 320px)
+  and (min-device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .softKeyboardWrapper {
+      position: relative;
+      margin-top: 14%;
+      margin-bottom: 5%;
+    }
+
+    .inputFontSize {
+      font-size: 3vw !important;
+    }
+  
+    .inputWidth {
+      font-size: 3vw !important;
+    }
+  
+    .inputMargin {
+      margin-left: 2px !important;
+      margin-right: 2px !important;
+    }
+  }
+
+
+/* ----------- iPhone 12, 12 Pro ----------- */
+@media only screen
+  and (max-device-width: 390px)
+  and (max-device-height: 844px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .softKeyboardWrapper {
+      position: relative;
+      margin-top: 8%;
+    }
+  }

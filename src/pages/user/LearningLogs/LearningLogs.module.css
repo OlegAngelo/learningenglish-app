@@ -1,0 +1,110 @@
+.objectiveTitle {
+  padding: 26px 21px 0 0;
+}
+
+.objectiveList {
+  padding: 0 16px 0 18px;
+  margin-bottom: 24px;
+  margin-top: 26px;
+}
+
+.goal {
+  font-size: 18px;
+  line-height: 25.2px;
+  margin-bottom: 5px;
+}
+
+.box {
+  height: 47px;
+  padding: 0 29px 0 22px;
+}
+
+.unit {
+  border: 1px solid #acbecf;
+  box-sizing: border-box;
+  margin: 0 10px;
+
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12),
+    0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.paragraphs p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.calendar {
+  padding-top: 11px;
+  padding-bottom: 7px;
+}
+
+.date {
+  height: 40px;
+}
+
+.date p {
+  color: white;
+  font-size: 16px;
+  line-height: 23.2px;
+  font-weight: 700;
+}
+
+.unitBox {
+  min-width: 85vw;
+}
+
+.unitCard {
+  font-family: Hiragino Kaku Gothic ProN;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14),
+              0px 2px 2px rgba(0, 0, 0, 0.12),
+              0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  min-height: 80px;
+  border: 1px solid #acbecf;
+  margin: 10px;
+}
+
+.accordion {
+  height: 0px;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transform-origin: top;
+  -ms-transform-origin: top;
+  -o-transform-origin: top;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.collapse {
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+.expand {
+  height: auto;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #DCE8F3;
+  opacity: 0.5;
+}

@@ -1,0 +1,8 @@
+.button {
+  padding: 8px 34px !important;
+  height: 36px;
+  font-size: 12px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}

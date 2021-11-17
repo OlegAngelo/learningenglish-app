@@ -1,0 +1,21 @@
+.videoPlayer {
+  height: 192px;
+  margin: auto;
+}
+
+.progressFilled {
+  height: 5px;
+  width: 0%;
+}
+
+.playBtnWrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 325px) {
+  .progressContainer {
+    margin-top: -7px;
+  }
+}

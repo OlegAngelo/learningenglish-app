@@ -1,0 +1,14 @@
+{
+  "labels" : [
+    "指定なし",
+    "Not Tried",
+    "In Progress",
+    "Mastered"
+  ],
+  "params" : [
+    "unspecified",
+    "not-tried",
+    "in-progress",
+    "mastered"
+  ]
+}

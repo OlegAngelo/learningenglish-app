@@ -1,0 +1,38 @@
+.headerBorder {
+  margin-top: 10px;
+}
+
+.logWordCard {
+  background-color: white;
+  margin-bottom: 3px;
+}
+
+.logWordCardContent {
+  padding: 15px 15px 16px 14px;
+}
+
+.logWordCardContentTitle {
+  padding-bottom: 4px;
+  margin-top: -2px;
+}
+
+.tagTopLeft {
+  margin: 0px 4px 4px 8px;
+}
+
+.tagTopRight {
+  margin: 0px 0px 4px 0px;
+}
+
+.tagBottomLeft {
+  margin: 0px 4px 0px 8px;
+}
+
+.tagBottomRight {
+  margin: 0px 0px 0px 0px;
+}
+
+.learningLogWordButton {
+  padding-top: 22px;
+  padding-bottom: 113.5px;
+}

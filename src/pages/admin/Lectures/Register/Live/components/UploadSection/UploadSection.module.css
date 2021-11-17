@@ -1,0 +1,18 @@
+.select {
+  width: 255px;
+}
+
+.inputText {
+  width: 542px;
+}
+
+.button {
+  width: 92px !important;
+}
+
+.textArea {
+  width: 582px;
+  height: 504px;
+  border-radius: 2px !important;
+  border: 1px solid #D1D5DB;
+}

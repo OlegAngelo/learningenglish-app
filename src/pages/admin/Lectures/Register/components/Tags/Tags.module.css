@@ -1,0 +1,15 @@
+.tagInput {
+  width: 280px;
+}
+
+.tagSuggestionHidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.2s, opacity 0.2s linear;
+}
+
+.tagSuggestionShow {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}

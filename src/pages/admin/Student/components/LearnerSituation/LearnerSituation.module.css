@@ -1,0 +1,52 @@
+.cubeGraphWrapper {
+  position: absolute;
+  left: 35px; top: 3.7px;
+  transform: scale(1.17);
+}
+
+.diamondChartWrapper {
+  position: absolute;
+  left: 22px; top: 20px;
+}
+
+.triangleChartWrapper {
+  position: absolute;
+  left: -21px; top: 20px;
+  transform: scale(0.66);
+}
+
+@media only screen and (max-width: 1280px) {
+  .cubeGraphWrapper {
+    left: 25px;
+    transform: scale(1.15);
+  }
+
+  .diamondChartWrapper {
+    left: 15px; top: 30px;
+    transform: scale(1);
+  }
+
+  .triangleChartWrapper {
+    position: absolute;
+    left: 5px; top: 35px;
+    transform: scale(0.75);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cubeGraphWrapper {
+    left: 2px;
+    transform: scale(1.05);
+  }
+
+  .diamondChartWrapper {
+    left: 15px; top: 55px;
+    transform: scale(1.10);
+  }
+
+  .triangleChartWrapper {
+    position: absolute;
+    left: 5px; top: 65px;
+    transform: scale(0.85);
+  }
+}

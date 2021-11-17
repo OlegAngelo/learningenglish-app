@@ -1,0 +1,17 @@
+.cardContent {
+    margin-left: 97px;
+    margin-top: 16px;
+    padding-bottom: 18px;
+}
+
+.cardEditButton {
+    padding-right: 23.5px;
+}
+
+.cardHeader {
+    height: 54px;
+}
+
+.cardDetail {
+    letter-spacing: 0.02rem;
+}

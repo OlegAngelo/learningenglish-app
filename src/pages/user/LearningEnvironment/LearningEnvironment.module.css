@@ -1,0 +1,27 @@
+.container {
+  max-height: 710px;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+
+.imageContainer {
+  margin-bottom: 40px;
+}
+
+.image {
+  height: 190px;
+  width: 100%;
+}
+
+.speakingText {
+  font-size: 16px;
+  line-height: 23.2px;
+}
+
+.button {
+  min-width: 202px;
+}
+
+.stepText {
+  line-height: 19.6px;
+}

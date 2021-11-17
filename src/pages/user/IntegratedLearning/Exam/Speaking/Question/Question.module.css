@@ -1,0 +1,47 @@
+.iconText {
+  color: #02BEB2;
+  line-height: 21px;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+    
+.speakingPageBody {
+  flex: 1 0;
+}
+    
+.videoPlayer {
+  height: 194px;
+}
+
+.single {
+  margin:  18px auto;
+}
+
+.choices {
+  margin: 16px auto 15px auto;
+}
+
+.single-disabled,
+.single-feedback {
+  margin-top: 164px;
+  margin-bottom: 159px;
+}
+
+.single-recording {
+  margin-top: 158px;
+  margin-bottom: 136px;
+}
+
+.choices-disabled {
+  margin-top: 19px;
+  margin-bottom: 159px;
+}
+
+.choices-recording {
+  margin-top: 12px;
+  margin-bottom: 136px;
+}

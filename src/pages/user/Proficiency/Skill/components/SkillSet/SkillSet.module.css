@@ -1,0 +1,67 @@
+.skillsCardDescription {
+  margin-left: 19px;
+  margin-bottom: 15px;
+  margin-top: 18px;
+}
+
+.skill {
+  margin-bottom: 36px;
+}
+
+.lessonNumber {
+  margin-top: 7.25px;
+  margin-left: -6px;
+}
+
+.icon {
+  width: 84px;
+  height: 84px;
+  margin-top: 15px;
+  margin-right: 17.5px;
+}
+
+.iconTitle {
+  fill: #43596d;
+  height: 24px;
+  width: 24px;
+}
+
+.mic {
+  margin-right: 11.5px;
+}
+
+.lessons {
+  margin-right: -10px;
+}
+/* iphone SE */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .lessons{
+    column-gap: 0rem;
+  }
+}
+/* iphone 6/7/8 */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px) {
+    .lessons{
+      column-gap: 1.25rem;
+    }
+}
+/* iphone 6/7/8 plus */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) {
+    .lessons{
+      column-gap: 1.25rem;
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+    .lessons{
+      column-gap: 1.25rem;
+    }
+}

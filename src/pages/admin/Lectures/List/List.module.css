@@ -1,0 +1,68 @@
+.searchIcon {
+  margin: 10px 0 0 13.5px;
+}
+
+.td1 {
+  width: 300px;
+}
+
+.td2 {
+  width: 140px;
+}
+
+.td3 {
+  width: 200px;
+}
+
+.td4 {
+  width: 110px !important;
+}
+
+.td5 {
+  width: 90px;
+}
+
+.td6 {
+  width: 90px;
+}
+
+.td7 {
+  width: 90px;
+}
+
+.td8 {
+  width: 100px;
+}
+
+.bottom {
+  padding: 0 !important;
+}
+
+.selectDrop select {
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+  @apply bg-adminGray-50 focus:outline-none py-px-8 cursor-pointer;
+  @apply font-semibold;
+  color: #374151;
+}
+
+.filterText {
+  color: #374151;
+}
+
+.highlightText {
+  color: #044071 !important;
+}
+
+.selectDrop:after {
+  content: url('../../../../assets/images/chevronDown.svg');
+  color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  right: 0;
+  top: 67%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-weight: 100;
+  margin-right: 13px;
+}

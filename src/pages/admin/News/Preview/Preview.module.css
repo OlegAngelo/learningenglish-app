@@ -1,0 +1,37 @@
+.finishedContainer {
+  padding-bottom: 123px;
+  max-width: 375px;
+}
+
+.finishedButton {
+  width: 119px;
+  min-height: 44px;
+}
+
+.tabs {
+  margin-top: -1px;
+}
+
+.screenSize {
+  min-width: 375px;
+  max-width: 375px;
+  overflow-x: hidden;
+}
+
+.footer {
+  min-width: 375px;
+  max-width: 375px;
+  bottom: 0px;
+}
+
+.modalSize {
+  max-width: 343px;
+}
+
+body {
+  width: 100%;
+}
+
+.noScrollbar::-webkit-scrollbar{
+  display: none;
+}

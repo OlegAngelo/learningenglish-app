@@ -1,0 +1,31 @@
+.modal{
+  width: 510px;
+  height: 400px;
+  border-radius: 4px;
+  flex-direction: unset;
+}
+
+.errorHeader {
+  background-color: #FFB2B2;
+}
+
+.error {
+  background-color: #FFE5E5;
+}
+
+.upload {
+  height: 209px;
+}
+
+.containerText {
+  width: 85%;
+}
+
+.text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  margin-left: 30px;
+  margin-top: -25px;
+}

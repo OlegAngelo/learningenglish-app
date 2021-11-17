@@ -1,0 +1,121 @@
+.response {
+  margin-bottom: -9px;
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.speakerIcon {
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+
+.sampleSentence{
+  margin-top: 50px;
+}
+
+.speakerQuestion {
+  padding-top: 60px;
+}
+
+.responseUpperText {
+  font-size: 24px;
+}
+
+.responseBottomText {
+  font-size: 24px;
+}
+
+.choiceContainer {
+  padding-top: 153px;
+}
+
+.responseTop {
+  padding-top: 46px;
+}
+
+.responseChoices {
+  padding-top: 0 !important;
+}
+
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (min-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 40px;
+  }
+
+  .speakerQuestion {
+    padding-top: 0px;
+  }
+
+  .choiceContainer {
+    padding-top: 10px;
+  }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 0px;
+  }
+
+  .speakerIcon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .speakerQuestion {
+    padding-top: 0px;
+  }
+
+  .responseUpperText {
+    font-size: 20px;
+  }
+
+  .responseBottomText {
+    font-size: 20px;
+  }
+
+  .choiceContainer {
+    padding-top: 10px;
+  }
+
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 80px;
+  }
+
+  .speakerIcon {
+    margin-top: 60px;
+    margin-bottom: 16px;
+  }
+
+  .choiceContainer {
+    padding-top: 90px;
+  }
+
+}

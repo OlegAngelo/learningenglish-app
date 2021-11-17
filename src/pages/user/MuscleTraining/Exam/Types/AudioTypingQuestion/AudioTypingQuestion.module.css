@@ -1,0 +1,55 @@
+.sampleSentence{
+  margin-top: 50px;
+}
+
+.speakerIcon {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.contentContainer {
+  padding-bottom: 50px;
+}
+
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .contentContainer {
+      padding-bottom: 50px;
+    }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (min-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    .contentContainer {
+      padding-bottom: 60px;
+    }
+
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    .contentContainer {
+      padding-bottom: 90px;
+    }
+}

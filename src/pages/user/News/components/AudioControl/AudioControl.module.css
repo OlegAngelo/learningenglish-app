@@ -1,0 +1,37 @@
+.StrikedLetterBoxShadow{
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.14);
+}
+
+button.StrikedLetterButton{
+/* Primary — 500* */
+  background: #044071;
+/* Primary — 500* */
+  height: 25px;
+  width: 50px;
+  border: 1px solid #044071;
+  box-sizing: border-box;
+}
+
+.ButtonContainer{
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  left: 16px;
+  top: 23.03px;
+}
+
+.FooterBg{
+  background: rgba(248, 248, 248, 0.92);
+  backdrop-filter: blur(27.1828px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+.footer {
+  border-top: 1px solid #C0C0C0;
+}
+
+.modalSizePreview {
+  width: 350px;
+}

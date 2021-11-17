@@ -1,0 +1,17 @@
+.screenSize {
+  min-width: 375px;
+  max-width: 375px;
+  overflow-x: hidden;
+}
+
+.noScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs {
+  width: 88px !important;
+}
+
+.cursorDefault {
+  cursor: default !important;
+}

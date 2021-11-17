@@ -1,0 +1,17 @@
+.cardImage {
+    padding: 10px 9.85px 10px 20px;
+}
+
+.card {
+    height: 80px;
+    margin-bottom: 2px;
+}
+
+.cardDescription {
+    font-size: 16px;
+}
+
+.arrowRightIcon {
+    right: 18px;
+    top: 34px;
+}

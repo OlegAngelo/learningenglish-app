@@ -1,0 +1,10 @@
+.FooterBg{
+  background: rgba(248, 248, 248, 0.92);
+  backdrop-filter: blur(27.1828px);
+  min-height: 78px;
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+.footer {
+  border-top: 1px solid #C0C0C0;
+}

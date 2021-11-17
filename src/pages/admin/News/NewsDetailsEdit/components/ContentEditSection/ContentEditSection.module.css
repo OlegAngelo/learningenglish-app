@@ -1,0 +1,34 @@
+.contentWidth {
+  width: 542px;
+}
+
+.borderBottom {
+  border-bottom: 3px solid rgba(9, 141, 216, 1);
+}
+
+.tableWords{
+  display: table-row;
+}
+
+.tableWords td:first-child {
+  padding: 0 111px 0 0;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.tableWords td:last-child {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+textarea {
+  border: 1px solid rgba(209, 213, 219, 1);
+}

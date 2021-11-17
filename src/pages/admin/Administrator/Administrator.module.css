@@ -1,0 +1,36 @@
+.searchIcon {
+  margin: 10px 0 0 13.5px;
+}
+
+.table {
+  width: 100%;
+}
+
+.td1 {
+  width: 55px;
+  min-width: 55px;
+  padding-top: 12px !important;
+}
+
+.th2 {
+  width: 208px;
+  min-width: 208px;
+}
+
+.td2 {
+  width: 208px;
+}
+
+.td3 {
+  width: 128px;
+  min-width: 300px;
+}
+
+.td4 {
+  width: 100%;
+  padding-right: 17px !important;
+}
+
+.bottom {
+  padding: 0 !important;
+}

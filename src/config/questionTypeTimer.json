@@ -1,0 +1,18 @@
+{
+  "audio-typing": 20,
+  "sentence-reading": 20,
+  "audio-word-selection": 10,
+  "word-translation-selection": 10,
+  "english-selection": 10,
+  "voice-listening": 10,
+  "spelling": 20,
+  "english-speech-recognition": 10,
+  "word-typing": 20,
+  "reading": 20,
+  "listening": 20,
+  "phrase-english-selection": 20,
+  "phrase-voice-listening": 20,
+  "vacancy-filling-problem": 20,
+  "instant-composition": 50,
+  "instant-utterance": 20
+}

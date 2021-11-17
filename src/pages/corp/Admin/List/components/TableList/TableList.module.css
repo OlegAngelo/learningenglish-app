@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+}
+
+.th1 {
+  width: 200px;
+  padding-left: 24px !important;
+}
+
+.th2 {
+  width: 624px;
+}
+
+.th3 {
+  width: 200px;
+  color: #044071 !important;
+}
+
+.bottom {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1440px) {
+  .table {
+    width: 1024px;
+  }
+}

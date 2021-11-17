@@ -1,0 +1,52 @@
+.checkboxContainer {
+  display: block;
+}
+
+.checkbox {
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  z-index: 5;
+  border: solid white;
+}
+
+.checkboxSpan {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+}
+
+.checkboxSpan:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.checkbox:checked ~ .checkboxSpan:after {
+  display: block;
+}
+
+.checkboxSpan:after {
+  left: 8px;
+  top: 3px;
+  width: 8px;
+  height: 14px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkColorWhite:after {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+}
+
+.checkbox:checked ~ .checkedBGMint {
+  background-color: #03dac6;
+}
+
+.curvedSquare {
+  border-radius: 5px;
+}

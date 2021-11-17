@@ -1,0 +1,16 @@
+.correctAnswer {
+  line-height: 19px;
+}
+
+.horizontalLine {
+  height: 3px;
+  margin: 0px 0 7px 0;
+}
+
+.correctLine {
+  background-color: #03DAC6;
+}
+
+.incorrectLine {
+  background-color: #E34E42;
+}

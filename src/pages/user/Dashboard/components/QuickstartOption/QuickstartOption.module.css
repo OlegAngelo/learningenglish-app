@@ -1,0 +1,38 @@
+.buttonDashboard {
+  font-size: 10px;
+  width: 66px;
+}
+
+.buttonMuscleCourse {
+  font-size: 12px;
+  width: 66px;
+  height: 21px;
+}
+
+.leftDashboardContainer {
+  margin-right: 30px;
+}
+
+.leftMuscleCourseContainer {
+  margin-right: 68px;
+}
+
+.textMuscleCourseContainer {
+  margin-left: 15px;
+}
+
+.rightContainer {
+  width: 77px;
+}
+
+.containerMuscleCourse {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0px * var(--tw-space-x-reverse));
+  margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+@media only screen and (max-width: 320px) {
+  .leftMuscleCourseContainer {
+    margin-right: 68px;
+  }
+}

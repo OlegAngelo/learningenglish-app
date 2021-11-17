@@ -1,0 +1,72 @@
+.objectiveList {
+  background: rgba(220, 232, 243, 0.5);
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 3.5px;
+  margin-left: 2px;
+  font-size: 18px;
+  line-height: 25.2px;
+}
+
+.border1 {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.border2 {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.box {
+  width: 85px;
+  height: 81px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 9px;
+}
+
+svg {
+  display: unset;
+  fill: red;
+}
+
+p {
+  font-size: 12px;
+}
+
+.listText1 {
+  width: 48px;
+  font-size: 12px;
+  padding-top: 13px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.listText2 {
+  width: 68px;
+  padding-top: 15px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 15px;
+}
+
+.listText3 {
+  min-width: 68px;
+  padding-top: 7px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 15px;
+}
+
+.listText4 {
+  width: 24px;
+  height: 16px;
+  padding-top: 13px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.checkBg {
+  background: #d6edeb !important;
+}

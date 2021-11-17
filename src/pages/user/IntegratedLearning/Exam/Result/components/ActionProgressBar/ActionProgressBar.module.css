@@ -1,0 +1,17 @@
+.actionText {
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 400;
+}
+
+.progressBox {
+  height: 24px;
+  width: 304px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  .progressBox {
+    margin-right: 10px;
+  }
+}

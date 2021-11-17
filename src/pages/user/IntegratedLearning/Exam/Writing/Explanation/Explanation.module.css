@@ -1,0 +1,59 @@
+.container {
+  padding-top: 6px;
+}
+
+.questionAnswerContainer {
+  border-radius: 4px;
+  perspective: 1px;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-left: 6px;
+  border: 1px solid #C0C0C0;
+}
+
+.pointContainer {
+  border-top: 3px solid #E8E8E8;
+  margin: 0px 16px 0px 16px;
+}
+
+.pointParagraph {
+  line-height: 160%;
+  text-transform: capitalize;
+  margin-top: 11px;
+}
+
+.btnWrapper {
+  padding-right: 106.5px;
+  padding-left: 106.5px;
+  padding-top: 137px;
+  padding-bottom: 30px;
+}
+
+.btnGridWrapper {
+  margin-top: 25px;
+  padding-bottom: 50px;
+}
+
+.btnGrid {
+ margin-right: 8px;
+}
+
+.commentaryWrapper {
+  padding-top: 43px;
+}
+
+.btnTranslate {
+  margin: 17px 14.7px;
+}
+
+.footerButtonSm {
+  width: 25vw;
+  font-size: 14px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.footerButtonLg {
+  width: 40vw;
+  padding: unset;
+}

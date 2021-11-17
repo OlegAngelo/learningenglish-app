@@ -1,0 +1,35 @@
+.button{
+  border-radius: 50px !important;
+}
+
+.buttonInactive{
+  border-color: #7A91A6;
+  color: #7A91A6;
+}
+
+.selectDrop {
+  @apply relative font-semibold bg-adminGray-50 rounded-px-2 border-px-2 border-adminGray-200 text-12 px-px-11 py-px-2 h-px-36 relative;
+  @apply text-adminGray-700;
+}
+
+.selectDrop select{
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+}
+
+.selectDrop:after {
+  content: url('../../../../../../../assets/images/chevronDown.svg');
+  color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  right: 0;
+  top: 75%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-weight: 100;
+  margin-right: 13px;
+}
+
+.searchIcon {
+  margin: 10px 0 0 13.5px;
+}

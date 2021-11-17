@@ -1,0 +1,44 @@
+.select {
+  width: 255px;
+  padding: 0 40px 0 12px !important;
+}
+
+.selectArrow {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+
+.selectContainer {
+  position: relative;
+  background: transparent;
+}
+
+.selectContainer select {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.selectContainer:after {
+  content: 'keyboard_arrow_down';
+  font-family: 'material icons';
+  font-size: 26px;
+  color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  right: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-weight: 100;
+}
+
+.inputText {
+  width: 542px;
+}
+
+.errorMsg {
+  min-height: 18px;
+}

@@ -1,0 +1,37 @@
+.container {
+  background-color: #F3F4F6;
+  color: #484848;
+  font-size: 2vmin;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container a {
+  font-weight: 300;
+  color: #484848;
+  font-size: 1.6vmax;
+  text-decoration: none;
+  border: 1px solid #484848;
+  padding: 0.5em;
+  border-radius: 3px;
+  position: relative;
+  transition: all 0.3s linear;
+}
+
+.container a:hover {
+  background-color: #B8B8B8;
+  color: #484848;
+}
+
+.container p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+  text-shadow: #0062cc 1px 1px, #0062cc 2px 2px, #0062cc 3px 3px, #0062cd 4px 4px;
+}

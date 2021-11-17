@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VoiceWordSelectionQuestion Component render should be render exaclty from snapshot 1`] = `ReactWrapper {}`;

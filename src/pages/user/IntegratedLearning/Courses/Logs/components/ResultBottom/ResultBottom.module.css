@@ -1,0 +1,28 @@
+.btnDiv {
+  padding-top: 15px;
+  height: 147px;
+}
+
+.footerDiv {
+  padding-top: 29.5px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 25.2px;
+  padding-left: 12px;
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.line {
+  height: 2px;
+}
+
+.marginBottomBox {
+  margin-bottom: 12px;
+}
+
+.borderBottomNone {
+  border-bottom: none !important;
+}

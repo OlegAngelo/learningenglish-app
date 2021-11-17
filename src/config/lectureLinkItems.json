@@ -1,0 +1,49 @@
+{
+  "linkItems": [
+    {
+        "title": "ALL",
+        "to": "/lectures",
+        "tab": null
+    },
+    {
+        "title": "LIVE",
+        "to": "/lectures/live",
+        "tab": "live"
+    },
+    {
+        "title": "文法",
+        "to": "/lectures/grammar",
+        "tab": "grammar"
+    },
+    {
+        "title": "Listening",
+        "to": "/lectures/listening",
+        "tab": "listening"
+    },
+    {
+        "title": "Reading",
+        "to": "/lectures/reading",
+        "tab": "reading"
+    },
+    {
+        "title": "Speaking",
+        "to": "/lectures/speaking",
+        "tab": "speaking"
+    },
+    {
+        "title": "Writing",
+        "to": "/lectures/writing",
+        "tab": "writing"
+    },
+    {
+        "title": "異文化",
+        "to": "/lectures/culture",
+        "tab": "culture"
+    },
+    {
+        "title": "ビジネス英語Tips",
+        "to": "/lectures/tips",
+        "tab": "tips"
+    }
+  ]
+}

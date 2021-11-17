@@ -1,0 +1,49 @@
+.modal {
+  margin: 0 38px 0;
+}
+
+.modalTitle {
+  padding: 19px 52px 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 320px) {
+  .modalTitle {
+      padding-left: 35px;
+      padding-right: 35px;
+      font-size: 16px;
+  }
+}
+
+.icon {
+  width: 66px;
+  height: 66px;
+}
+
+.cubeGraphContainer {
+  margin-top: -29px;
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 414px) {
+  .cubeGraphContainer {
+    margin-left: 11vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .cubeGraphContainer {
+    margin-left: 7vw;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .cubeGraphContainer {
+    margin-left: 0;
+  }
+}
+
+.iconWrapper {
+  line-height: 1;
+}

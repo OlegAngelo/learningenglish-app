@@ -1,0 +1,7 @@
+{
+  "ON_LIVE": 1,
+  "NEW_OD": 2,
+  "PLANNING_TO_LIVE": 3,
+  "FINISHED_LIVE": 4,
+  "OTHER_OD": 5
+}

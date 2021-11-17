@@ -1,0 +1,6 @@
+.modalCard {
+  min-width: 410px;
+  min-height: 210px;
+  border-radius: 4px;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1), 0px 10px 10px rgba(0, 0, 0, 0.04);
+}

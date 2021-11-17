@@ -1,0 +1,58 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.speakingReviewPageBody {
+  flex: 1 0;
+}
+
+.title {
+  line-height: 19.6px;
+  margin-top: 18px;
+}
+
+.question {
+  font-size: 24px;
+  line-height: 35.52px;
+  letter-spacing: 1.5px;
+  margin: 18px 0 0 8px;
+}
+
+.subQuestion {
+  line-height: 23.8px;
+  margin: 24.5px 0 24px 15.5px;
+}
+
+.blankLine {
+  border-bottom: 2px solid #578EAC;
+  color: transparent;
+}
+
+.textBelow {
+  text-align: center;
+  line-height: 23.2px;
+  margin-top: 55px;
+}
+
+.recording {
+  margin-top: 110px;
+}
+
+.disabled {
+  margin-top: 119px;
+}
+
+.recordText {
+  text-align: center;
+  line-height: 21px;
+}
+
+.recorderContainer {
+  margin-bottom: 65px;
+}
+
+.closeIcon {
+  width: 16px;
+}

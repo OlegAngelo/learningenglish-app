@@ -1,0 +1,13 @@
+.headerTitle {
+  line-height: 1.2;
+  margin-left: -1px;
+}
+
+.overallResult {
+  line-height: 0.8;
+  margin-left: -2px;
+}
+
+.pieGraph {
+  margin-top: -26px;
+}

@@ -1,0 +1,16 @@
+.title {
+    line-height: 19.6px;
+    margin-top: 25px;
+}
+
+.content {
+    margin-right: 11px;
+    margin-top: 15.5px;
+}
+
+.buttonSpacing {
+    bottom: 50px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

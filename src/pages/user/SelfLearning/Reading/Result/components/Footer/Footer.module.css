@@ -1,0 +1,6 @@
+.footer {
+  border-top: 1px solid #C0C0C0;
+  background: rgba(248, 248, 248, 0.92);
+  backdrop-filter: blur(27.1828px);
+  /* Note: backdrop-filter has minimal browser support */
+}

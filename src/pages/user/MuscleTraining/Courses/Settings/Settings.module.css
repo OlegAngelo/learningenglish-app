@@ -1,0 +1,76 @@
+.settings {
+  padding: 17px 90px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  height: 48px;
+  margin-bottom: 39px;
+}
+
+.textsettings {
+  height: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 320px) {
+  .textsettings {
+    width: 154px;
+  }
+}
+
+.btnText {
+  line-height: 22px;
+  letter-spacing: -0.8px;
+}
+
+.btnWidth75 {
+  width: 75px;
+}
+
+.btnWidth87 {
+  width: 87px;
+}
+
+.btnWidth100 {
+  width: 100px;
+}
+
+.btnWidth113 {
+  width: 113px;
+}
+
+.btnWidth140 {
+  width: 140px;
+}
+
+.settingsContent {
+  padding-bottom: 56px;
+}
+
+.spellingBtn {
+  letter-spacing: -0.59px;
+}
+
+@media only screen and (max-width: 414px) {
+  .settings {
+    width: 375px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .settings {
+    max-width: 335px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .settings {
+    padding: 17px 65px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .settings {
+    max-width: 281px;
+  }
+}

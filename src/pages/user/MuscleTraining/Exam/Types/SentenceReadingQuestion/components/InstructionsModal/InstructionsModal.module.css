@@ -1,0 +1,17 @@
+.checkBox svg {
+  fill: none;
+}
+
+.stepDescription {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.icons {
+  padding-left: 25px;
+  padding-right: 21px;
+}
+
+.talkingDesc {
+  word-break: keep-all;
+}

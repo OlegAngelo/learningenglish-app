@@ -1,0 +1,7 @@
+.itemCard {
+  margin:0 auto;
+  text-align: center;
+  border-radius: 4px;
+  --tw-shadow: 2px 7px 4px -7px rgba(0, 0, 0, 0.6);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}

@@ -1,0 +1,9 @@
+#chunk-content .incorrect.text-exam-error :not(i) {
+  color: #E34E42 !important;
+  border-bottom: 1px solid #E34E42 !important;
+}
+
+#chunk-content .text-exam-error :not(i) {
+  color: #E34E42 !important;
+  border-bottom: 1px solid #E34E42 !important;
+}

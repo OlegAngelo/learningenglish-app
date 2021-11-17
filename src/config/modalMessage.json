@@ -1,0 +1,5 @@
+{
+  "confirmationMessage": "この動画を削除しますか？",
+  "successMessage" : "動画を削除しました。",
+  "failedMessage" : "エラーが発生しました。後ほど再度お試しください。"
+}

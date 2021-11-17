@@ -1,0 +1,20 @@
+.wordPhrasesLogCard {
+  margin-top: 21px;
+  padding-bottom: 47px;
+}
+
+.wordPhrasesLogCardDescription {
+  margin-left: 19px;
+  margin-bottom: 15px;
+}
+
+.wordPhrasesLogButton {
+  margin-top: -2px;
+  padding-bottom: 17px;
+}
+
+.line {
+  height: 8px; 
+  width: 100vw; 
+  background-color: #E8E8E8; 
+}

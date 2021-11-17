@@ -1,0 +1,31 @@
+.timePicker input {
+  background-color: #F9FAFB;
+  border: none;
+  line-height: 21px;
+  color: #374151;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+}
+
+.timePicker input[disabled] {
+  cursor: default !important;
+  @apply text-adminGray-700;
+}
+
+.timePicker input {
+  position: relative;
+  background: transparent;
+}
+
+.timePicker input {
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.timePicker input::placeholder, textarea::placeholder {
+  color: #BDBDBD;
+  opacity: 1;
+}

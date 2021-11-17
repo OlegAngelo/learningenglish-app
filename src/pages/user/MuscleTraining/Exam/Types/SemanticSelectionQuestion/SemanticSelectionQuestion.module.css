@@ -1,0 +1,70 @@
+.response {
+  margin-bottom: -8px;
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.commentaryTitle {
+  line-height: 23.2px;
+}
+
+.commentaryDescription {
+  line-height: 23.8px;
+}
+
+.englishQuestion {
+  line-height: 35.52px;
+}
+
+.correctChoice {
+  line-height: 26.64px;
+  margin-top: 8px;
+}
+
+.contentContainer {
+  padding-top: 65px;
+}
+
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (max-device-width: 414px)
+  and (min-device-height: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 40px;
+  }
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 10px;
+  }
+
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .contentContainer {
+    padding-top: 65px;
+  }
+
+}

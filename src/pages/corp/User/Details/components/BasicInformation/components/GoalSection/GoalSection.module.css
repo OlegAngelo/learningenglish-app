@@ -1,0 +1,9 @@
+.goal {
+  padding: 10px;
+  height: 60px;
+  color: #6b7280;
+}
+
+.inactive {
+  opacity: 0.2;
+}

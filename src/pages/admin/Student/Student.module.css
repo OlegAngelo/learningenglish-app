@@ -1,0 +1,65 @@
+.studentContainer {
+  height: fit-content;
+}
+
+.board {
+  min-width: 836px;
+  margin-bottom: 3rem;
+}
+
+.boardBody {
+  padding: 0 2rem;
+  padding-left: 90px;
+}
+
+.boardRowContent {
+  max-width: 929px;
+}
+
+.backButton {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.topButtonContainer {
+  padding-left: 90px;
+  margin-top: 24px;
+}
+
+.topButtonActive {
+  border-radius: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 3px solid #098DD8;
+  width: 220px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  color: #162750;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.topButtonInactive {
+  border-radius: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  width: 220px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  color: #162750;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .boardRowContent {
+    max-width: 91%;
+  }
+}

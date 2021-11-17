@@ -1,0 +1,26 @@
+.questionnaireBackground {
+  padding-bottom: 251px;
+  flex: 1 0;
+  @apply bg-background-200;
+}
+
+.questionSize {
+  margin: 107px 24px 0 24px;
+}
+
+.answerFormat {
+  height: 72px;
+  line-height: 23.8px;
+  white-space: pre-wrap;
+}
+
+.japQuestionSize {
+  height: 27px;
+}
+
+.cardSize {
+  min-width: 304px;
+  max-width: 406px;
+  min-height: 153px;
+  margin-top: 24px;
+}

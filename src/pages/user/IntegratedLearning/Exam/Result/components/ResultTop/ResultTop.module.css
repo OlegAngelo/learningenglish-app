@@ -1,0 +1,21 @@
+.body {
+  min-height: 336px;
+}
+
+.icon {
+  fill: #43596d;
+  height: 20px;
+  width: 20px;
+}
+
+.div {
+  margin-top: 17px;
+}
+
+.learningScore {
+  position: absolute;
+  vertical-align: top;
+  line-height: 170%;
+  top: 12.5px;
+  left: 18px;
+}

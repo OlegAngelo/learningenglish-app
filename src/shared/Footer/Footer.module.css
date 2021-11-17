@@ -1,0 +1,22 @@
+.footerBg {
+  background-color: #F8F8F8;
+}
+
+.footerIcons {
+  border-top:solid 0.5px rgb(0,0,0,0.2);
+  padding-top: 10.70px;
+  padding-bottom: 10.70px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.footerIcon {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.activeNavLink {
+  color: #044071;
+}
+
+.activeNavLink svg path {
+  fill: #044071;
+}

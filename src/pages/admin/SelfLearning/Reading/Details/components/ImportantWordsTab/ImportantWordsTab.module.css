@@ -1,0 +1,13 @@
+.word {
+  color: #374151;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.translated {
+  font-weight: lighter;
+}

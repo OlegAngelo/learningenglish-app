@@ -1,0 +1,22 @@
+.response {
+  margin-bottom: -8px;
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.commentary {
+  margin-bottom: 146.5px;
+}
+
+.questionSentence {
+  line-height: 35.52px;
+}
+
+.sessionQuestion {
+  line-height: 26.64px;
+}
+
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}

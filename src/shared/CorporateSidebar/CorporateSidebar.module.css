@@ -1,0 +1,24 @@
+.navLink {
+  width: 100%;
+  height: 3rem;
+  padding: 15px 0px 13px 16px;
+}
+
+.isActive {
+  color: #2B99F3;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.isActive .icon path {
+  fill: #2B99F3;
+}
+
+.sidebarContainer {
+  max-width: 19.7rem;
+  min-width: 11.7rem;
+  width: 22%;
+}
+
+.bgGreen{
+  background-color: #03564E;
+}

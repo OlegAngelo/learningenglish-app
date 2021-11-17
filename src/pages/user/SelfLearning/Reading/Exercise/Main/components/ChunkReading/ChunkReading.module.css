@@ -1,0 +1,121 @@
+.overlayTop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  mix-blend-mode: normal;
+}
+
+.overlayBottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+  transform: rotate(-180deg);
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  mix-blend-mode: normal;
+}
+
+.button {
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
+.sliderContainer {
+  height: calc(100vh - 18.1rem);
+  mix-blend-mode: normal;
+  padding-top: 184px;
+  overflow:hidden;
+  margin-top: 16px;
+}
+
+.slider {
+  transition: .3s;
+}
+
+.buttonsDiv {
+  bottom: 0px !important;
+  margin-bottom: 30px;
+}
+
+.chunkContainer {
+  margin-top: -15px !important;
+}
+
+/* iPhone 6/7/8 */
+@media only screen
+  and (min-device-height: 667px)
+  and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  .sliderContainer {
+    height: calc(100vh - 20rem);
+    mix-blend-mode: normal;
+    padding-top: 184px;
+    overflow:hidden;
+    margin-top: 16px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen
+  and (min-device-height: 736px)
+  and (min-device-width: 414px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .sliderContainer {
+    height: calc(100vh - 21rem);
+    mix-blend-mode: normal;
+    padding-top: 184px;
+    overflow:hidden;
+    margin-top: 16px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+@media only screen
+  and (max-device-height: 812px)
+  and (max-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .sliderContainer {
+    height: calc(100vh - 23rem);
+    mix-blend-mode: normal;
+    padding-top: 184px;
+    overflow:hidden;
+    margin-top: 16px;
+  }
+}
+
+/* ----------- iPhone XR ----------- */
+/* might be used */
+/* @media only screen 
+    and (device-height : 896px) 
+    and (device-width : 414px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+      
+    } */
+
+/* ----------- iPhone 12, 12 Pro ----------- */
+@media only screen
+  and (min-device-height: 844px)
+  and (min-device-width: 390px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+  .sliderContainer {
+    height: calc(100vh - 24rem);
+    mix-blend-mode: normal;
+    padding-top: 184px;
+    overflow:hidden;
+    margin-top: 16px;
+  }
+}

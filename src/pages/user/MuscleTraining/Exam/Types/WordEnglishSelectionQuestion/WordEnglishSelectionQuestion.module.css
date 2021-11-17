@@ -1,0 +1,99 @@
+.response {
+    margin-bottom: -8px;
+    -webkit-text-stroke: .55px #FFFFFF;
+  }
+  
+  .questionArea {
+    min-height: 77px;
+    max-height: 77px;
+  }
+  
+  .correctChoice {
+    line-height: 26.64px;
+  }
+  
+  .translateQuestion {
+    line-height: 35.52px;
+  }
+  
+  .contentContainer {
+    padding-top: 57px;
+  }
+  
+  .feedbackWord {
+    margin-bottom: 110px;
+  }
+  
+  .questionContainer {
+    margin-bottom: 0px;
+  }
+  
+  .textFormat {
+    line-break: strict;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+  @media only screen
+    and (max-device-width: 375px)
+    and (min-device-height: 667px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+  
+    .contentContainer {
+      padding-top: 0px;
+    }
+  
+    .feedbackWord {
+      margin-bottom: 50px;
+    }
+  
+    .questionContainer {
+      margin-bottom: 10px;
+    }
+  
+  }
+  
+  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+  @media only screen
+    and (max-device-width: 414px)
+    and (min-device-height: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+  
+    .contentContainer {
+      padding-top: 30px;
+    }
+  
+    .feedbackWord {
+      margin-bottom: 70px;
+    }
+  
+    .questionContainer {
+      margin-bottom: 40px;
+    }
+  
+  }
+  
+  /* ----------- iPhone X ----------- */
+  @media only screen
+    and (max-device-width: 375px)
+    and (min-device-height: 812px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+  
+    .contentContainer {
+      padding-top: 57px;
+    }
+  
+    .feedbackWord {
+      margin-bottom: 110px;
+    }
+  
+    .questionContainer {
+      margin-bottom: 90px;
+    }
+  
+  }
+  

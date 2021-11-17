@@ -1,0 +1,23 @@
+.pagination {
+  padding-left: 19.33px;
+  padding-right: 19.33px;
+  border-top: solid 1px #D1D5DB;
+  font-size: 12px;
+}
+
+.pagination .selected {
+  border-top: solid 2px #0D89EE;
+  color: #0D89EE;
+}
+
+.arrowPrev {
+  margin-right: 7.33px;
+}
+
+.arrowForward {
+  margin-left: 7.33px;
+}
+
+.disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,19 @@
+.timePicker input {
+  background-color: rgb(249, 250, 251);
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: black;
+  cursor: pointer !important;
+}
+
+.timePicker input[disabled] {
+  cursor: default !important;
+  color: black;
+  background: transparent;
+}
+
+.datePicker {
+  @apply flex bg-gray-50 p-px-8 border-px-2 border-gray-200 rounded-px-2 text-gray-900 focus:outline-none items-center justify-between;
+}

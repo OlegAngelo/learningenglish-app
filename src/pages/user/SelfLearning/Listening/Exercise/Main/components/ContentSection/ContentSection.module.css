@@ -1,0 +1,59 @@
+.inputWordLines {
+  min-height: 310px;
+}
+
+.blink {
+  animation: blink 1.25s ease-in-out infinite;
+}
+
+.btnDiv {
+  bottom: 132px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.btn {
+  height: 44px !important;
+  width: 88px !important;
+}
+
+.footer {
+  border-top: 0.99px solid rgba(0, 0, 0, 0.2);
+  height: 58px;
+}
+
+.footerIcons {
+  border-top: solid 0.5px rgb(0, 0, 0, 0.2);
+  padding-top: 3.5px;
+  padding-bottom: 3px;
+}
+
+.footerBtn {
+  width: 125px;
+}
+
+.resultFeedback {
+  -webkit-text-stroke: .55px #FFFFFF;
+}
+
+.shortenHeight {
+  height: calc(100vh - 290px);
+  padding-bottom: 40px;
+}
+
+@keyframes blink {
+  0%,
+  55% {
+    opacity: 0.5;
+  }
+
+  60%,
+  100% {
+    opacity: 1;
+  }
+}
+
+.lastPageButton {
+  margin-top: 147px;
+}

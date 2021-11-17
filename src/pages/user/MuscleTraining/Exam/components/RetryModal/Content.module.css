@@ -1,0 +1,27 @@
+.title {
+  @apply mt-px-19 mb-px-24 font-bold text-20 text-center text-primary-500;
+}
+
+.content_one {
+  @apply leading-10 mt-px-19;
+}
+
+.content_one > p {
+  @apply font-bold text-14 text-center;
+}
+
+.content_two {
+  @apply mt-px-19;
+}
+
+.content_two > p {
+  @apply text-center;
+}
+
+.checkbox {
+  @apply mt-px-19 text-center pt-px-3 pb-px-2 -ml-px-5;
+}
+
+.checkbox svg {
+  fill: none;
+}

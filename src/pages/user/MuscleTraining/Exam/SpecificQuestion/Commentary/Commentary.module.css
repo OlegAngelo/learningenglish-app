@@ -1,0 +1,34 @@
+.textFormat {
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.questionContainer {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.instructionContainer {
+  font-size: 16px;
+}
+
+.translateLineHeight {
+  line-height: 23.8px;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen
+  and (max-device-width: 375px)
+  and (min-device-height: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .instructionContainer {
+      font-size: 14px;
+    }
+  
+    .questionContainer {
+      font-size: 21px;
+      line-height: 24px;
+    }
+}

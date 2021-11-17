@@ -1,0 +1,9 @@
+.container {
+  padding-bottom: 137px;
+}
+
+.calendar {
+  height: 312px;
+  max-width: 338px;
+  flex: 1;
+}

@@ -1,0 +1,26 @@
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+    
+.videoPlayer {
+  height: 194px;
+}
+    
+.speakingReviewPageBody {
+  flex: 1 0;
+}
+
+.iconText {
+  color: #02BEB2;
+  line-height: 21px;
+}
+
+.recording {
+  margin-bottom: 136px;
+}
+
+.retryBtn {
+  width: 167px;
+}

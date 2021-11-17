@@ -1,0 +1,24 @@
+.recordingCircle {
+  border-radius: 50%;
+}
+
+.icon svg {
+  fill: none;
+}
+
+.blink {
+  animation: blink 1.25s ease-in-out infinite;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes blink {
+  0%,
+  55% {
+    opacity: 0.5;
+  }
+
+  60%,
+  100% {
+    opacity: 1;
+  }
+}

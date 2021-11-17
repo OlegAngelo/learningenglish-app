@@ -1,0 +1,106 @@
+.inputContainer {
+  min-height: 88px;
+  min-width: 359px;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.textFormat {
+  line-break: strict !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.cursorBlink {
+  font-weight: 100;
+  font-size: 30px;
+  color: #000000;
+  background-color: #FFFFFF;
+  width: 5px;
+  animation: blink 1s ease-in-out infinite;
+}
+
+.response {
+  -webkit-text-stroke: 0.55px #FFFFFF;
+}
+
+.responseContainer {
+  height: 89px;
+}
+
+.correctAnswer {
+  height: 75px;
+  display: inline-block;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  55%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  55%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  55%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  55%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes blink {
+  0%,
+  50% {
+    opacity: 0;
+  }
+
+  55%,
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+@media only screen
+  and (max-device-width: 320px)
+  and (min-device-height: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .inputContainer {
+      min-width: 200px;
+      margin-bottom: 47px;
+    }
+  }

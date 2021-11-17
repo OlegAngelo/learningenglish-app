@@ -1,0 +1,30 @@
+.board {
+  min-width: 836px;
+}
+
+.select {
+  width: 255px;
+}
+
+.inputText {
+  width: 542px;
+}
+
+.inputTextSm {
+  width: 280px;
+}
+
+.selectArrow{
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  appearance:none;
+}
+
+.tdFirst {
+  width: 50px;
+}
+
+.tdLast {
+  width: 100px;
+}
+
